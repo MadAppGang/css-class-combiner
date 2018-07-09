@@ -56,7 +56,7 @@ You can pass multiple classes to `combineIf` as well, so use it as you like.
 ### How it works?
 As you noticed the constructor creates an instance of combiner that holds the API methods, so you might be thinking how does it become an actual css class string?
 
-The answer is very simple, the combiner gets transformed in a class string when it gets casted to `String` (both explicitly and implicitly) as it has a custom implementation of the `toString` method.
+The answer is very simple, the combiner gets transformed in a class string when it gets explicitly casted to `String` as it has a custom implementation of the `toString` method.
 
 ### Contribute
 If you discovered some features that hasn't been implemented yet, but would be very useful to have - we would be happy to see your pull requests. Anyway, thanks for visiting!
