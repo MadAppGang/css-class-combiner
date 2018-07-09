@@ -23,4 +23,8 @@ CSSClassCombiner.prototype.toString = function() {
   return this.cssClassList.join(' ');
 };
 
+Object.defineProperty(exports, "__esModule", { value: true });
+
+exports.default = CSSClassCombiner;
+
 module.exports = CSSClassCombiner;
