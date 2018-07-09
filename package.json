@@ -1,0 +1,29 @@
+{
+  "name": "css-class-combiner",
+  "version": "1.0.0",
+  "description": "A simple utility to compose a single css class name out of multiple separate variables",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MadAppGang/css-class-combiner.git"
+  },
+  "keywords": [
+    "string",
+    "builder",
+    "composer",
+    "combiner",
+    "css",
+    "cssClass",
+    "class",
+    "chain"
+  ],
+  "author": "MadAppGang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MadAppGang/css-class-combiner/issues"
+  },
+  "homepage": "https://github.com/MadAppGang/css-class-combiner#readme"
+}
