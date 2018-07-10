@@ -35,7 +35,7 @@ const className = new Combiner(baseClassName)
   .combine(yetAnotherClassName)
 ```
 
-It also works if you pass all additionals classNames as a set of arguments into one combine call:
+It also works if you pass all additional classNames as a set of arguments into one combine call:
 
 ```javascript
 const className = new Combiner(baseClassName)
