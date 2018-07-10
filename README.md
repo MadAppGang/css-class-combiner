@@ -6,6 +6,53 @@ It is a super small utility that comes in handy when you have to compose a css c
 
 It can really increase your code readability as template strings can turn in hell when you got loads of css classes to compose a single class name of.
 
+### Real-life example
+
+Let's imagine that we have an interactive element, that has different stylings for different states.
+
+```js
+...
+return <a className={className}>Hello world!</a>
+```
+
+So, when rendering, we have a couple of boolean variables telling us whether the element should have an additional class name.
+
+```js
+const isHovered = true;
+const isFocused = false;
+...
+```
+
+If order to compose a final css class name we have to write a some condition statements:
+
+```js
+let className = 'baseClassName';
+
+if (isHovered) {
+  className += 'hoverClassName';
+}
+
+if (isFocused) {
+  className += 'focusClassName';
+}
+
+return <a className={className}>Hello world!</a>
+```
+
+First off, the class name is a mutable variable, second - this does not look compact at all.
+
+What we could use instead would look something like this:
+
+```js
+ const className = new Combiner('baseClassName')
+   .combineIf(isHovered, 'hoverClassName')
+   .combineIf(isFocused, 'focusClassName');
+   
+  return <a className={className}>Hello world!</a>
+```
+
+This way the code looks nice, it's shorter and semanticly perfect.
+
 ### How to install it?
 It is available on npm, just run the following command:
 ```bash
