@@ -4,6 +4,7 @@
   "description": "A simple utility to compose a single css class name out of multiple separate variables",
   "main": "index.js",
   "scripts": {
+    "build": "babel src -d dist",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage"
@@ -29,6 +30,8 @@
   },
   "homepage": "https://github.com/MadAppGang/css-class-combiner#readme",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
     "jest": "^23.3.0"
   }
 }

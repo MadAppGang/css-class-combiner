@@ -1,4 +1,4 @@
-const Combiner = require('../index');
+const Combiner = require('../dist').default;
 
 test('the output is a string', () => {
   expect(typeof new Combiner('').toString()).toBe('string');
