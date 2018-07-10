@@ -23,7 +23,7 @@ const isFocused = false;
 ...
 ```
 
-If order to compose a final css class name we have to write a some condition statements:
+If order to compose a final css class name we have to write some condition statements:
 
 ```js
 let className = 'baseClassName';
