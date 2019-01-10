@@ -1,6 +1,6 @@
 {
   "name": "@madappgang/css-class-builder",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "A simple utility to compose a single css class name out of multiple separate variables",
   "main": "dist/index.js",
   "scripts": {
