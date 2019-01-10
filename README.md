@@ -1,5 +1,4 @@
-# CSS class combiner
-
+# css class builder
 
 ### What is it?
 It is a super small utility that comes in handy when you have to compose a css class name out of multiple variables. The useful part is in being able to chain combinations and apply combinations based on boolean conditions.
@@ -56,13 +55,13 @@ This way the code looks nice, it's shorter and semanticly perfect.
 ### How to install it?
 It is available on npm, just run the following command:
 ```bash
-npm install --save css-class-combiner
+npm install --save @madappgang/css-class-builder
 ```
 
 ### How to use it?
 You just import the combiner
 ```javascript
-import Combiner from 'css-class-combiner';
+import Combiner from '@madappgang/css-class-builder';
 ```
 
 Combiner is a constructor that accepts an initial class name as a first argument.
@@ -107,3 +106,6 @@ The answer is very simple, the combiner gets transformed in a class string when 
 
 ### Contribute
 If you discovered some features that hasn't been implemented yet, but would be very useful to have - we would be happy to see your pull requests. Anyway, thanks for visiting!
+
+### LICENSE
+MIT
