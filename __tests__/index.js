@@ -1,4 +1,4 @@
-const Combiner = require('../dist').default;
+import Combiner from '../src';
 
 test('the output is a string', () => {
   expect(typeof new Combiner('').toString()).toBe('string');
